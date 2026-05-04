@@ -1,0 +1,7 @@
+[Unit]
+Description=Nyrelika
+[Service]
+ExecStart=/usr/bin/python3 /opt/nyrelika/phantom_init.pyw
+Restart=always
+[Install]
+WantedBy=multi-user.target
